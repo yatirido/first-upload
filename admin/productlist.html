@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fiona - Administrator</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+     <!-- <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> -->
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="container-fluid">
+        
+        <!-- HEADER -->
+<!-- Fixed Top Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand" href="#" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">FIONA - Web Administrator</a>
+            </div>
+    
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <form class="navbar-form navbar-left" action="/action_page.php">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                  
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-envelope"></i><span class="badge blue">3</span></a>
+                        <ul class="dropdown-menu">
+                                <li>
+                                    <div class="notification_header">
+                                        <h5>You have 3 messages</h5>
+                                    </div>
+                                </li>
+                                <li><a href="#">
+                                    <div class="user_img"><img src="images/p5.png" alt=""></div>
+                                   <div class="notification_desc">
+                                    <p>Anita Amalia</p>
+                                    <p><span>1 hour ago</span></p>
+                                    </div>
+                                  <div class="clearfix"></div>	
+                                 </a></li>
+                                 <li class="odd"><a href="#">
+                                    <div class="user_img"><img src="images/p6.png" alt=""></div>
+                                   <div class="notification_desc">
+                                    <p>Dimitry M</p>
+                                    <p><span>1 hour ago</span></p>
+                                    </div>
+                                   <div class="clearfix"></div>	
+                                 </a></li>
+                                 <li><a href="#">
+                                    <div class="user_img"><img src="images/p7.png" alt=""></div>
+                                   <div class="notification_desc">
+                                    <p>Budiman W</p>
+                                    <p><span>2 hour ago</span></p>
+                                    </div>
+                                   <div class="clearfix"></div>	
+                                 </a></li>
+                                 <li>
+                                    <div class="notification_bottom">
+                                        <a href="#">See all messages</a>
+                                    </div> 
+                                </li>
+                            </ul>
+                        </li>	
+
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-tasks"></i><span class="badge blue">2</span></a>
+
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-log-out"></span> Log Out</a>
+                    </li>            
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Account<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#.html" ><span class="glyphicon glyphicon-cog"></span>Setting</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#.html" ><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                                <li class="divider"></li>
+                                <li><a href="deliveryaddress.html" ><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
+                            </ul>
+                    </li>   
+
+    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+     
+
+    <!-- CONTENT - Account -User Information -->
+          <!-- SIDE BAR -->
+    <div class="container-fluid text-center">    
+        <div class="row content">
+            <div class="col-sm-3 sidenav">
+                    <ul class="menu-container nav nav-stacked">
+                        <li><a href="#"><b>Dashboard</b> <span class="left-menu-label"></span></a></li>
+                    </ul>
+                    <ul class="menu-container nav nav-stacked">
+                        <li class=""><a href="productcategories.html"><b>Product Categories</b></a></li>
+                    </ul>
+                    <ul class="menu-container nav nav-stacked">
+                        <li class="active"><a href="productlist.html"><b>Product Lists</b></a></li>
+                    </ul>
+                    <ul class="menu-container nav nav-stacked" >
+                        <li class=""><a href="invoices.html"><b>Invoices</b></a></li>
+                    </ul>
+                    
+            </div>
+           <!-- END of SIDE BAR -->
+
+           <!-- MAIN BAR -->
+            <div class="col-sm-9 form-container">    
+                  
+                        <div class="ads-grid_shop">
+                                <div class="shop_inner_inf">
+                                    <div class="privacy about">
+                                        <h3>PRODUCT LIST</span></h3>
+                        <div class="checkout-right">
+                                <h4>Last Update: <span>1 June 2018</span></h4>
+                                <table class="timetable_sub">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Product Name</th>
+                                            <th>Code</th>
+                                            <th>Stock Qty</th>
+                                            <th>Price (Rp.)</th>
+                                            <th>On Sale</th>
+                                            <th>Sale Price (Rp.)</th>
+                                            <th>Released</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="rem1">
+                                            <td class="invert">1</td>
+                                            <td class="invert" style="text-align: left"><a href="../web/singleproduct.html">Crossbody Bag - Ryder</a></td>
+                                            <td class="invert">CB001</td>
+                                            <td class="invert">6</td>
+                                            <td class="invert">900,000</td>
+                                            <td class="invert">No</td>
+                                            <td class="invert"></td>
+                                            <td class="invert">Jan 2017</td>
+                                            <td class="invert">
+                                                
+                                                <button type="submit" class="btn btn-xs btn-info">Edit</button>
+                                                <button type="submit" class="btn btn-xs btn-warning">Delete</button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class="rem1">
+                                            <td class="invert">2</td>
+                                            <td class="invert" style="text-align: left"><a href="../web/singleproduct.html">Crossbody Bag - Emma RFID</a></td>
+                                            <td class="invert">CB002</td>
+                                            <td class="invert">3</td>
+                                            <td class="invert">Rp. 950,000</td>
+                                            <td class="invert">Yes</td>
+                                            <td class="invert">850,000</td>
+                                            <td class="invert">Dec 2016</td>
+                                            <td class="invert">
+                                              
+                                                <button type="submit" class="btn btn-xs btn-info">Edit</button>
+                                                <button type="submit" class="btn btn-xs btn-warning">Delete</button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class="rem1">
+                                            <td class="invert">3</td>
+                                            <td class="invert" style="text-align: left"><a href="../web/singleproduct.html">Tote Bag - Rachel Blue</a></td>
+                                            <td class="invert">TB001</td>
+                                            <td class="invert">8</td>
+                                            <td class="invert">Rp. 1,250,000</td>
+                                            <td class="invert">No</td>
+                                            <td class="invert"></td>
+                                            <td class="invert">May 2017</td>
+                                            <td class="invert">
+                                                
+                                                <button type="submit" class="btn btn-xs btn-info">Edit</button>
+                                                <button type="submit" class="btn btn-xs btn-warning">Delete</button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class="rem1">
+                                            <td class="invert">4</td>
+                                            <td class="invert" style="text-align: left"><a href="../web/singleproduct.html">Tote Bag - Rachel Motif</a></td>
+                                            <td class="invert">TB002</td>
+                                            <td class="invert">4</td>
+                                            <td class="invert">Rp. 1,350,000</td>
+                                            <td class="invert">No</td>
+                                            <td class="invert"></td>
+                                            <td class="invert">Jul 2017</td>
+                                            <td class="invert">
+                                                <button type="submit" class="btn btn-xs btn-info">Edit</button>
+                                                <button type="submit" class="btn btn-xs btn-warning">Delete</button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class="rem1">
+                                            <td class="invert">5</td>
+                                            <td class="invert" style="text-align: left"><a href="../web/singleproduct.html">Satchel Bag - Fiona Motif</a></td>
+                                            <td class="invert">SB001</td>
+                                            <td class="invert">3</td>
+                                            <td class="invert">Rp. 1,400,000</td>
+                                            <td class="invert">No</td>
+                                            <td class="invert"></td>
+                                            <td class="invert">Jan 2018</td>
+                                            <td class="invert">
+                                               
+                                                <button type="submit" class="btn btn-xs btn-info">Edit</button>
+                                                <button type="submit" class="btn btn-xs btn-warning">Delete</button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                       
+                                    </tbody>
+                                </table>
+                            </div>
+                            <br><br>
+                            <div class="">
+                                <button type="submit" class="btn btn-lg btn-primary">Add New Product</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END of transaction #1 -->
+   
+
+</div>
+</body>
+</html>
+        

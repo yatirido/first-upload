@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fiona Women's Bags</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> -->
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Script for Multi Carousel -->
+<script>
+    jQuery(document).ready(function() {
+            
+            jQuery('.carousel[data-type="multi"] .item').each(function(){
+                var next = jQuery(this).next();
+                if (!next.length) {
+                    next = jQuery(this).siblings(':first');
+                }
+                next.children(':first-child').clone().appendTo(jQuery(this));
+              
+                for (var i=0;i<2;i++) {
+                    next=next.next();
+                    if (!next.length) {
+                        next = jQuery(this).siblings(':first');
+                    }
+                    next.children(':first-child').clone().appendTo($(this));
+                }
+            });
+                
+        });
+</script>
+
+
+</head>
+
+<body>
+<div class="container-fluid">
+
+<!-- HEADER -->
+<!-- Fixed Top Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand" href="#" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">FIONA - Casually Classic</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <form class="navbar-form navbar-left" action="/action_page.php">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+              
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="register.html">Register</a>
+                </li>   
+                <li>
+                    <a href="login.html" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-log-in"></span> Sign In</a>
+                        <ul class="dropdown-menu collapseloginform" >
+                            <li>
+                                <p>Have an account? Great! <br>
+                                    Please enter your email address and password to sign in:
+                                </p>
+                                <form action="/action_page.php">
+                                    <div class="form-group boxform">
+                                        <label class="control-label" for="email">Email:</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                                    </div>
+                                    <div class="form-group boxform">
+                                        <label class="control-label" for="pwd">Password:</label>
+                                        <input type="password" class="form-control" id="pwd" placeholder="Enter Password" name="pwd" required>
+                                    </div>
+                                    <div>
+                                        <button type="submit" class="btn btn-primary-f boxform">Submit</button>
+                                    </div>
+                                </form>
+                                <p><br><a href="forgotpassword.html" target="_blank">Forgot password?</a></p>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <p><a href="register.html" target=_blank><strong>Create/Register</strong></a> a new account.</p>
+                            </li>
+                        </ul>
+                </li>            
+                <li>
+                    <a href="account.html" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Account</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="userinfo.html" target=_blank>User Information</a></li>
+                            <li class="divider"></li>
+                            <li><a href="transactionhistory.html" target=_blank>Transaction History</a></li>
+                            <li class="divider"></li>
+                            <li><a href="deliveryaddress.html" target=_blank>Delivery Address</a></li>
+                        </ul>
+                </li>   
+                <li>
+                    <a href="cart-checkout.html" target="_blank"><span class="glyphicon glyphicon-shopping-cart"><span class="badge">2</span></span></a>
+                </li>
+
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER - Logo -->
+    <div>
+        <div class="hidden-xs">
+            <a href="index.html"><center><img src='images/LOGO_FIONA_small.jpg' height="10%" alt="Store Logo" class="img-responsive"></center></a>
+        </div>
+    </div>
+
+    <!-- HEADER - Menu Bar for Product Categories -->
+    <div id="bottomheader">
+            <ul class="nav nav-tabs nav-justified">
+            <li><a href="index.html" class='brown'>Home</a></li>    
+            <li><a href="products.html" class='brown'>New Arrival</a></li>
+            <li class="dropdown">
+                <a href="#" class="brown dropdown-toggle" data-toggle="dropdown">Crossbody Bags</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="products.html">Basic</a></li>
+                        <li><a href="products.html">Pattern</a></li>
+                    </ul>
+            </li>
+            <li><a href="products.html" class='brown'>Tote Bags</a></li>
+            <li><a href="products.html" class='brown'>Satchel Bags</a></li>
+            <li><a href="products.html" class='brown'>Wallets</a></li>
+            <li><a href="products.html" class='brown'>Sale</a></li>
+        </ul>
+    </div> 
+    <!-- END of HEADER -->
+
+    <!-- CONTENT -->
+    <!-- Content - Big Photo Slides/Carousel -->
+    
+    <div id="maincontent">
+        <div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+            
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="images/woman_and_fossilbag_logo_resize.jpg" alt="Bag1" style="width:100%;">
+                  </div>
+            
+                  <div class="item">
+                    <img src="images/woman_and_fossilbag_logo_2.jpg" alt="Bag2" style="width:100%;">
+                  </div>
+                
+                  <div class="item">
+                    <img src="images/woman_and_fossilbag_logo_3.jpg" alt="Bag3" style="width:100%;">
+                  </div>
+                </div>
+            
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    
+        <!-- Content - Best Sellers Product Slides (Multi Items Carousel)-->
+        <div class="container-fluid" id="maincontent">
+            <br>
+            <p><h3><center> POPULAR </center></h3></p>
+            <!--The main div for carousel-->
+            <div class="container text-center">
+            <div class="carousel slide row" data-ride="carousel" data-type="multi" data-interval="2000" id="bestsellercarousel">
+            
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                            <figure>
+                                <a href="singleproduct.html"><img src="images/Crossbody_Campbell_1.jpg" class="img-responsive"></a>
+                                <figcaption> Crossbody Campbell <br> Rp. 900,000 </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                            <figure>
+                                <a href="singleproduct.html"><img src="images/Tote_Fiona_1.jpg" class="img-responsive"></a>
+                                <figcaption> Tote Bag Fiona <br> Rp. 1,100,000 </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                            <figure>
+                                <a href="singleproduct.html"><img src="images/Crossbody_Elle_1.jpg" class="img-responsive"></a>
+                                <figcaption> Crossbody Elle <br> Rp. 950,000 </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                            <figure>
+                                <a href="singleproduct.html"><img src="images/Crossbody_Emma_1.jpg" class="img-responsive"></a>
+                                <figcaption> Crossbody Emma <br> Rp. 1,000,000 </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                            <figure>
+                                <a href="singleproduct.html"><img src="images/Satchel_Rachel_1.jpg" class="img-responsive"></a>
+                                <figcaption> Satchel Rachel <br> Rp. 1,000,000 </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                            <figure>
+                                <a href="#"><img src="images/Tote_Rachel_Motif_1.jpg" class="img-responsive"></a>
+                                <figcaption> Tote Bag Rachel Motif <br> Rp. 1,250,000 </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            
+                <a class="left carousel-control" href="#bestsellercarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                <a class="right carousel-control" href="#bestsellercarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a> 
+            </div>
+            <br>
+            </div>
+        </div>
+
+        <!-- CONTENT - Bottom - Short Description -->
+        <div class="hidden-xs" style="background-color: white; font-size: 10; font-family: Georgia ;text-align: center; padding-top: 5px; padding-bottom: 5px">
+                <hr>
+                <h4>LEATHER BAGS FOR WOMEN</h4>
+                <p>
+                    Our must-have leather bags and leather purses pair fashion and functionality. 
+                    <br>
+                    Designed only to get better with age, our perfectly portable bags feature easy-to-carry silhouettes and long-lasting materials to help you tote your tech, news and small accessories without compromising on style.                    
+                    <br>
+                    Our signature leather in new neutrals and vibrant hues captures the richness of each season, while showcasing the clean lines of our iconic designs.
+                    <br>
+                    From classic, basic to motif bags and more, our collections are created to assure your destination will be a celebration.
+                </p>
+            </div>
+
+    <!-- END of CONTENT -->
+
+    <!-- FOOTER -->
+    <div class="footer-container-top">
+        <div class="container">
+            <ul class="row nav nav-pills">
+                <li class="col-sm-3 nav-col">
+                    <h4 status="0" class="footer-title hidden-xs">FIONA</h4>
+                    <!-- <h4 status="0" class="visible-xs footer-triggers">FIONA <span class="glyphicon glyphicon-chevron-down pull-right"></span></h4> -->
+                    <div class="footer-collapse">
+                        <a href='#'>About Us</a>
+                        <a href='#'>Company Profile</a>
+                        <a href='#'>Career at Fiona</a>
+                    </div>
+                </li>
+                <li class="col-sm-3 nav-col">
+                        <h4 status="0" class="footer-title hidden-xs">SHOP</h4>
+                        <!-- <h4 status="0" class="visible-xs footer-triggers">SHOP <span class="glyphicon glyphicon-chevron-down pull-right"></span></h4> -->
+                        <div class="footer-collapse">
+                            <a href='#'>Shopping</a>
+                            <a href='#'>Payment Process</a>
+                            <a href='#'>Product Refund</a>
+                        </div>
+                </li>
+                <li class="col-sm-3 nav-col">
+                    <h4 status="0" class="footer-title hidden-xs">CUSTOMER SERVICE</h4>
+                    <!-- <h4 status="0" class="visible-xs footer-triggers">CUSTOMER SERVICE <span class="glyphicon glyphicon-chevron-down pull-right"></span></h4> -->
+                    <div class="footer-collapse">
+                        <a href="mailto://support@qlapa.com">support@fiona.com</a>
+                        <a href="tel:+622122562088">+6221 22562088 </a> 
+                        <span class="hour">(Mon - Fri, 09.00 - 18.00)</span>
+                    </div>
+                </li>
+                <li class="col-sm-3 nav-col">
+                    <center>
+                    <h4 status="0" class="footer-title hidden-xs">CONNECT WITH US</h4>
+                    <div class="footer-collapse">
+                        <div class="inline social-media-footer hidden-xs">
+                            <a href="#"><span class="fa fa-facebook"></span></a>
+                            <a href="#"><span class="fa fa-twitter"></span></a>
+                            <a href="#"><span class="fa fa-google google-plus"></span></a>
+                            <a href="#"><span class="fa fa-instagram" style="margin-right: 0"></span></a>
+                            <br>
+                        </div>
+                        <div>
+                            <div class="hidden-xs">
+                                <a href="#" target="_blank">
+                                    <img alt="Fiona Android Apps" title="Fiona Android Apps" class="img-responsive google-badge" src="images/google-play-badge.png" style="margin: auto" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </center>
+                </li>
+            </ul>
+           
+            <div class="visible-xs text-center">
+                <div class="row social-media-footer text-center">
+                    <a href="#" target="_blank"><span class="fa fa-facebook "></span></a>
+                    <a href="#" target="_blank"><span class="fa fa-twitter "></span></a>
+                    <a href="#"><span class="fa fa-google google-plus"></span></a>
+                    <a href="#" target="_blank"><span class="fa fa-instagram " style="margin-right: 0"></span></a>
+                </div>
+                <a href="#" target="_blank">
+                    <img alt="Fiona Android Apps" title="Fiona Android Apps" class="img-responsive google-badge" src="images/google-play-badge.png" style="margin: auto" />
+                </a>
+            </div>
+        </div>
+    </div>
+        <div class="footer-container-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12" style="text-align: center">
+                        <a href="/policy" class="footer-link">Policy</a>
+                        <a href="blog.html" class="footer-link">Blog</a>
+                        <span class="copyright">2018 &copy; FIONA GROUP, INC. </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- END of FOOTER -->
+    
+</div>  
+</body>
+</html>

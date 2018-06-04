@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fiona Women's Bags</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+     <!-- <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> -->
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="container-fluid">
+        
+        <!-- HEADER -->
+<!-- Fixed Top Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand" href="#" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">FIONA - Casually Classic</a>
+            </div>
+    
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <form class="navbar-form navbar-left" action="/action_page.php">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                  
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="register.html">Register</a>
+                    </li>   
+                    <li>
+                        <a href="login.html" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-log-in"></span> Sign In</a>
+                            <ul class="dropdown-menu collapseloginform" >
+                                <li>
+                                    <p>Have an account? Great! <br>
+                                        Please enter your email address and password to sign in:
+                                    </p>
+                                    <form action="/action_page.php">
+                                        <div class="form-group boxform">
+                                            <label class="control-label" for="email">Email:</label>
+                                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                                        </div>
+                                        <div class="form-group boxform">
+                                            <label class="control-label" for="pwd">Password:</label>
+                                            <input type="password" class="form-control" id="pwd" placeholder="Enter Password" name="pwd" required>
+                                        </div>
+                                        <div>
+                                            <button type="submit" class="btn btn-primary-f boxform">Submit</button>
+                                        </div>
+                                    </form>
+                                    <p><br><a href="forgotpassword.html" target="_blank">Forgot password?</a></p>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <p><a href="register.html" target=_blank><strong>Create/Register</strong></a> a new account.</p>
+                                </li>
+                            </ul>
+                    </li>            
+                    <li>
+                        <a href="account.html" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Account</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="userinfo.html" target=_blank>User Information</a></li>
+                                <li class="divider"></li>
+                                <li><a href="transactionhistory.html" target=_blank>Transaction History</a></li>
+                                <li class="divider"></li>
+                                <li><a href="deliveryaddress.html" target=_blank>Delivery Address</a></li>
+                            </ul>
+                    </li>   
+                    <li>
+                        <a href="cart-checkout.html" target="_blank"><span class="glyphicon glyphicon-shopping-cart"><span class="badge">2</span></span></a>
+                    </li>
+    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+        <!-- HEADER - Logo -->
+    <div>
+        <div class="hidden-xs">
+            <a href="index.html"><center><img src='images/LOGO_FIONA_small.jpg' height="10%" alt="Store Logo" class="img-responsive"></center></a>
+        </div>
+    </div>
+    
+    <!-- HEADER - Menu Bar for Product Categories -->
+    <div id="bottomheader">
+            <ul class="nav nav-tabs nav-justified">
+            <li><a href="index.html" class='brown'>Home</a></li>    
+            <li><a href="products.html" class='brown'>New Arrival</a></li>
+            <li class="dropdown">
+                <a href="#" class="brown dropdown-toggle" data-toggle="dropdown">Crossbody Bags</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="products.html">Basic</a></li>
+                        <li><a href="products.html">Pattern</a></li>
+                    </ul>
+            </li>
+            <li><a href="products.html" class='brown'>Tote Bags</a></li>
+            <li><a href="products.html" class='brown'>Satchel Bags</a></li>
+            <li><a href="products.html" class='brown'>Wallets</a></li>
+            <li><a href="products.html" class='brown'>Sale</a></li>
+        </ul>
+    </div> 
+    <!-- END of HEADER -->
+
+    <!-- CONTENT - Account -User Information -->
+          
+    <div class="container-fluid text-center">    
+        <div class="row content">
+            <div class="col-sm-3 sidenav">
+                    <ul class="menu-container nav nav-stacked">
+                        <li class="active"><a href="userinfo.html"><b>User Information</b> <span class="left-menu-label"></span></a></li>
+                    </ul>
+                    <ul class="menu-container nav nav-stacked" >
+                        <li class=""><a href="transactionhistory.html"><b>Transaction History</b></a></li>
+                    </ul>
+                    <ul class="menu-container nav nav-stacked">
+                        <li class=""><a href="deliveryaddress.html"><b>Delivery Address</b></a></li>
+                    </ul>
+            </div>
+           
+            <div class="col-sm-9 form-container-holder">
+                    <div class="row">
+                        <div class="col-sm-12 form-container">             
+                            <form method="POST" action="/account/info/change-account-info">
+                                <div class="row field">
+                                    <div class="col-xs-12">
+                                        <h3>User Information</h3>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row field">
+                                    <div class="col-sm-8">
+                                        <div class="row">
+                                            <p class="col-sm-3 field-name">Name</p>
+                                            <div class="col-sm-9">
+                                                <input id ="user" name="name" type="text" class="form-control" value="Yati Rodiati"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <p class="col-sm-4 hidden-xs tips">Please use your full name.</p>
+                                </div>
+                                <div class="row field">
+                                    <div class="col-sm-8">
+                                        <div class="row">
+                                            <p class="col-sm-3 field-name">Gender</p>
+                                                <div class="col-sm-6">
+                                                    <select id ="gender" name="gender" class="form-control">
+                                                        <option value="null" class="">Choose Gender</option>
+                                                        <option value="true"  class="">Male</option>
+                                                        <option value="false" selected class="">Female</option>
+                                                    </select>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row field">
+                                    <div class="col-sm-8">
+                                        <div class="row">
+                                            <p class="col-sm-3 field-name">Date of Birth</p>
+                                                <div class="col-sm-3 col-xs-4">
+                                                    <select id ="date" name="date" class="form-control">
+                                                        <option value="-1" class="">Date</option>
+                                                        <option value="1"  class="">1</option>
+                                                        <option value="2"  class="">2</option>
+                                                        <option value="3"  class="">3</option>
+                                                        <option value="4"  class="">4</option>
+                                                        <option value="5"  class="">5</option>
+                                                        <option value="6"  class="">6</option>
+                                                        <option value="7"  class="">7</option>
+                                                        <option value="8"  class="">8</option>
+                                                        <option value="9"  class="">9</option>
+                                                        <option value="10"  class="">10</option>
+                                                        <option value="11"  class="">11</option>
+                                                        <option value="12"  class="">12</option>
+                                                        <option value="13"  class="">13</option>
+                                                        <option value="14"  class="">14</option>
+                                                        <option value="15"  class="">15</option>
+                                                        <option value="16"  class="">16</option>
+                                                        <option value="17"  class="">17</option>
+                                                        <option value="18"  class="">18</option>
+                                                        <option value="19"  class="">19</option>
+                                                        <option value="20"  class="">20</option>
+                                                        <option value="21"  class="">21</option>
+                                                        <option value="22"  class="">22</option>
+                                                        <option value="23"  class="">23</option>
+                                                        <option value="24"  class="">24</option>
+                                                        <option value="25"  class="">25</option>
+                                                        <option value="26"  class="">26</option>
+                                                        <option value="27"  class="">27</option>
+                                                        <option value="28"  class="">28</option>
+                                                        <option value="29"  class="">29</option>
+                                                        <option value="30"  class="">30</option>
+                                                        <option value="31"  class="">31</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-sm-3 col-xs-4">
+                                                    <select id ="month" name="month" class="form-control">
+                                                        <option value="-1" class="">Month</option>
+                                                        <option value="0"  class="">Januari</option>
+                                                        <option value="1"  class="">Februari</option>
+                                                        <option value="2"  class="">Maret</option>
+                                                        <option value="3"  class="">April</option>
+                                                        <option value="4"  class="">Mei</option>
+                                                        <option value="5"  class="">Juni</option>
+                                                        <option value="6"  class="">Juli</option>
+                                                        <option value="7"  class="">Agustus</option>
+                                                        <option value="8"  class="">September</option>
+                                                        <option value="9"  class="">Oktober</option>
+                                                        <option value="10"  class="">November</option>
+                                                        <option value="11"  class="">Desember</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-sm-3 col-xs-4">
+                                                    <select id ="year" name="year" class="form-control">
+                                                        <option value="-1" class="">Year</option>
+                                                        <option value="1971"  class="">1971</option>
+                                                        <option value="1972"  class="">1972</option>
+                                                        <option value="1973"  class="">1973</option>
+                                                        <option value="1974"  class="">1974</option>
+                                                        <option value="1975"  class="">1975</option>
+                                                        <option value="1976"  class="">1976</option>
+                                                        <option value="1977"  class="">1977</option>
+                                                        <option value="1978"  class="">1978</option>
+                                                        <option value="1979"  class="">1979</option>
+                                                        <option value="1980"  class="">1980</option>
+                                                        <option value="1981"  class="">1981</option>
+                                                        <option value="1982"  class="">1982</option>
+                                                        <option value="1983"  class="">1983</option>
+                                                        <option value="1984"  class="">1984</option>
+                                                        <option value="1985"  class="">1985</option>
+                                                        <option value="1986"  class="">1986</option>
+                                                        <option value="1987"  class="">1987</option>
+                                                        <option value="1988"  class="">1988</option>
+                                                        <option value="1989"  class="">1989</option>
+                                                        <option value="1990"  class="">1990</option>
+                                                        <option value="1991"  class="">1991</option>
+                                                        <option value="1992"  class="">1992</option>
+                                                        <option value="1993"  class="">1993</option>
+                                                        <option value="1994"  class="">1994</option>
+                                                        <option value="1995"  class="">1995</option>
+                                                        <option value="1996"  class="">1996</option>
+                                                        <option value="1997"  class="">1997</option>
+                                                        <option value="1998"  class="">1998</option>
+                                                        <option value="1999"  class="">1999</option>
+                                                        <option value="2000"  class="">2000</option>
+                                                        <option value="2001"  class="">2001</option>
+                                                        <option value="2002"  class="">2002</option>
+                                                        <option value="2003"  class="">2003</option>
+                                                    </select>
+                                                </div>
+                                        </div>
+                                    </div>   
+                                </div>
+                                <div class="row field">
+                                    <div class="col-sm-8">
+                                        <div class="row">
+                                            <p class="col-sm-3 field-name">Email</p>
+                                            <div class="col-sm-9">
+                                                <div class="input-group">
+                                                        <input id="" name="email" type="email" class="form-control" value="yatirido@gmail.com"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row field">
+                                    <div class="col-sm-8">
+                                        <div class="row">
+                                            <p class="col-sm-3 field-name">Mobile No.</p>
+                                            <div class="col-sm-9">
+                                                <input name="phone-number" type="text" class="form-control" value=""/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 visible-xs tips-holder"></div>
+                                        <p class="col-sm-4 hidden-xs tips">Mobile number is often required by the courier agent for delivery.</p>
+                                </div>
+                                <div class="row field">
+                                    <div class="col-sm-8">
+                                        <div class="row">
+                                            <div class="col-sm-9 col-sm-offset-3 col-xs-12 submit-button">
+                                                <input type="submit" class="btn btn-primary-f" value="Save Information">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <br>
+                        </div>
+                    
+                        <div class="col-sm-12 form-container">    
+                            <form method="POST" action="/account/info/change-password">
+                                <div class="row field">
+                                    <div class="col-xs-12">
+                                        <h3>Change Password</h3>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row field">
+                                    <div class="col-sm-8">
+                                        <div class="row">
+                                            <p class="col-sm-3 field-name">Old Password</p>
+                                            <div class="col-sm-9">
+                                                <input name="current-password" type="password" class="form-control" placeholder="Enter old password"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <p class="col-sm-4 hidden-xs tips">Please don't give your password information to anyone.</p>
+                                </div>
+                                <div class="row field">
+                                    <div class="col-sm-8">
+                                        <div class="row">
+                                            <p class="col-sm-3 field-name">New Password</p>
+                                            <div class="col-sm-9">
+                                                <input name="new-password" type="password" class="form-control" placeholder="Enter new password"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row field">
+                                    <div class="col-sm-8">
+                                        <div class="row">
+                                            <p><div class="col-sm-9 col-sm-offset-3"></p>
+                                                <input name="repeat-password" type="password" class="form-control" placeholder="Repeat new password"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row field">
+                                    <div class="col-sm-8">
+                                        <div class="row">
+                                            <div class="col-sm-9 col-sm-offset-3 col-xs-12 submit-button">
+                                                <input type="submit" class="btn btn-primary-f" value="Change Password">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+          </div>
+        </div>
+        
+    <!-- FOOTER -->
+    <div class="footer-container-top">
+            <div class="container">
+                <ul class="row nav nav-pills">
+                    <li class="col-sm-3 nav-col">
+                        <h4 status="0" class="footer-title hidden-xs">FIONA</h4>
+                        <!-- <h4 status="0" class="visible-xs footer-triggers">FIONA <span class="glyphicon glyphicon-chevron-down pull-right"></span></h4> -->
+                        <div class="footer-collapse">
+                            <a href='#'>About Us</a>
+                            <a href='#'>Company Profile</a>
+                            <a href='#'>Career at Fiona</a>
+                        </div>
+                    </li>
+                    <li class="col-sm-3 nav-col">
+                            <h4 status="0" class="footer-title hidden-xs">SHOP</h4>
+                            <!-- <h4 status="0" class="visible-xs footer-triggers">SHOP <span class="glyphicon glyphicon-chevron-down pull-right"></span></h4> -->
+                            <div class="footer-collapse">
+                                <a href='#'>Shopping</a>
+                                <a href='#'>Payment Process</a>
+                                <a href='#'>Product Refund</a>
+                            </div>
+                    </li>
+                    <li class="col-sm-3 nav-col">
+                        <h4 status="0" class="footer-title hidden-xs">CUSTOMER SERVICE</h4>
+                        <!-- <h4 status="0" class="visible-xs footer-triggers">CUSTOMER SERVICE <span class="glyphicon glyphicon-chevron-down pull-right"></span></h4> -->
+                        <div class="footer-collapse">
+                            <a href="mailto://support@qlapa.com">support@fiona.com</a>
+                            <a href="tel:+622122562088">+6221 22562088 </a> 
+                            <span class="hour">(Mon - Fri, 09.00 - 18.00)</span>
+                        </div>
+                    </li>
+                    <li class="col-sm-3 nav-col">
+                        <center>
+                        <h4 status="0" class="footer-title hidden-xs">CONNECT WITH US</h4>
+                        <div class="footer-collapse">
+                            <div class="inline social-media-footer hidden-xs">
+                                <a href="#"><span class="fa fa-facebook"></span></a>
+                                <a href="#"><span class="fa fa-twitter"></span></a>
+                                <a href="#"><span class="fa fa-google google-plus"></span></a>
+                                <a href="#"><span class="fa fa-instagram" style="margin-right: 0"></span></a>
+                                <br>
+                            </div>
+                            <div>
+                                <div class="hidden-xs">
+                                    <a href="#" target="_blank">
+                                        <img alt="Fiona Android Apps" title="Fiona Android Apps" class="img-responsive google-badge" src="images/google-play-badge.png" style="margin: auto" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        </center>
+                    </li>
+                </ul>
+               
+                <div class="visible-xs text-center">
+                    <div class="row social-media-footer text-center">
+                        <a href="#" target="_blank"><span class="fa fa-facebook "></span></a>
+                        <a href="#" target="_blank"><span class="fa fa-twitter "></span></a>
+                        <a href="#"><span class="fa fa-google google-plus"></span></a>
+                        <a href="#" target="_blank"><span class="fa fa-instagram " style="margin-right: 0"></span></a>
+                    </div>
+                    <a href="#" target="_blank">
+                        <img alt="Fiona Android Apps" title="Fiona Android Apps" class="img-responsive google-badge" src="images/google-play-badge.png" style="margin: auto" />
+                    </a>
+                </div>
+            </div>
+        </div>
+            <div class="footer-container-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12" style="text-align: center">
+                            <a href="/policy" class="footer-link">Policy</a>
+                            <a href="blog.html" class="footer-link">Blog</a>
+                            <span class="copyright">2018 &copy; FIONA GROUP, INC. </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- END of FOOTER -->
+
+</div>d
+</body>
+</html>
+        
